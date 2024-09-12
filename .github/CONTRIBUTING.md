@@ -30,6 +30,15 @@ Every solution should include a Docker deployment option, with a `compose.yml` a
 - As simple as possible
 - Documented in the `README.md` file
 
+## Testing
+
+All contributions should include tests to ensure the stability and reliability of the project. Please follow these guidelines for testing:
+
+- Write unit tests for new functionality and bug fixes.
+- Use a testing framework appropriate for the project's language and environment.
+- Ensure that all tests pass before submitting a pull request.
+- Include instructions on how to run the tests in the README.md file.
+
 ## Archiving
 
 Each project within the DeVinci Fablab organization should be archived when it is no longer maintained. This includes projects that have been completed or abandoned.
