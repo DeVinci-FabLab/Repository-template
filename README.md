@@ -2,7 +2,7 @@
 
 > Add a short description of the project here.
 
-![screenshot](./src/assets/img/screenshot.png)
+![screenshot](./assets/img/screenshot.png)
 
 ## Getting Started
 
@@ -100,7 +100,7 @@ If necessary, provide a description of the most important files of the project.
 
 ## Contributing
 
-If you want to contribute to the project, you can follow the steps described in the [CONTRIBUTING](CONTRIBUTING) file.
+If you want to contribute to the project, you can follow the steps described in the [CONTRIBUTING](./.github/CONTRIBUTING) file.
 
 ## License
 
