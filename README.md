@@ -17,10 +17,6 @@ Add important information about the project here.
     - [Usage](#usage)
     - [Build \& Run](#build--run)
   - [Troubleshooting](#troubleshooting)
-  - [Project structure](#project-structure)
-    - [`src/`](#src)
-    - [`src/assets/`](#srcassets)
-    - [Files](#files)
   - [Supported platforms](#supported-platforms)
   - [Supported languages](#supported-languages)
   - [Future improvements](#future-improvements)
@@ -29,7 +25,9 @@ Add important information about the project here.
 
 ### Documentation
 
-Provide where to find to the documentation of the project. It may include a link to an important [reference](https://example.com).
+Provide where to find to the documentation of the project. (ex: [Structure of the project](./docs/STRUCTURE.md))
+
+It may include a link to an important [reference](https://example.com).
 
 ### Setting up
 
@@ -71,37 +69,6 @@ Detail here the instructions to build and run the project.
 ### Troubleshooting
 
 Detail here the troubleshooting of the project.
-
-### Project structure
-
-Here are the most important files and directories of the project:
-
-```plaintext
-Repository-Template
-├── src
-│   ├── assets
-│   │   └── img
-│   │       └── screenshot.png
-│   └── project-code.sh
-├── .gitignore
-├── SECURITY
-├── CODE_OF_CONDUCT
-├── CONTRIBUTING
-├── LICENCE
-└── README.md
-```
-
-#### `src/`
-
-This directory contains the source code of the project.
-
-#### `src/assets/`
-
-This directory contains the assets of the project.
-
-#### Files
-
-If necessary, provide a description of the most important files of the project.
 
 ### Supported platforms
 
