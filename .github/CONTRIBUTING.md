@@ -3,15 +3,24 @@
 When contributing to this repository, please first discuss the change you wish to make via issue,
 email, or any other method with the owners of this repository before making a change.
 
-Please note we have a code of conduct, please follow it in all your interactions with the [**project**].
+Please note we have a code of conduct, please follow it in all your interactions with the project.
 
-## Pull Request Process
+## I18N
 
-1. Ensure any install or build dependencies are removed before the end of the layer when doing a build.
-2. Update the README.md with details of changes to the interface, this includes new environment variables, exposed ports, useful file locations and container parameters.
-3. Increase the version numbers in any examples files and the README.md to the new version that this Pull Request would represent. The versioning scheme we use is [SemVer](http://semver.org/).
-4. You may merge the Pull Request in once you have the sign-off of two other developers, or if you do not have permission to do that, you may request the second reviewer to merge it for you.
+All contributions should be in English. This is to ensure that all members of the community can understand and contribute to the project. Translations can be made in addition to the English version. It is recommended to use the [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) standard for language codes.
 
-## Attribution
+## Documentation
 
-This CONTRIBUTING.md is adapted from the [PurpleBooth gist](https://gist.github.com/PurpleBooth/b24679402957c63ec426), available at <https://gist.github.com/PurpleBooth/b24679402957c63ec426>.
+It is mandatory to document all contributions. This includes code, issues, and pull requests. The documentation should be as clear and concise as possible. It should be written in Markdown format. The documentation should be in the `README.md` file at the root of the project. Further documentation can be added in the `docs` folder.
+
+## Deployment
+
+Every solution should have a docker deployment option (with compose.yml and DOCKERFILE if necessary). The deployment should be as simple as possible and should be documented in the README.md file.
+
+## Archiving
+
+Each project within the DeVinci Fablab organization should be archived when it is no longer maintained. Would it be because the project has been aborted or because it has been completed, the project should be archived.
+
+## Licensing
+
+All public projects within the DeVinci Fablab organization are [MIT licensed](./LICENSE).
