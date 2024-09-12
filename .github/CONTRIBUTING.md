@@ -1,26 +1,43 @@
 # Contributing
 
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change.
+Thank you for your interest in contributing to this repository! To ensure a smooth and collaborative process, please follow these guidelines.
 
-Please note we have a code of conduct, please follow it in all your interactions with the project.
+## Before You Start
 
-## I18N
+Before making any changes, please discuss the proposed change with the repository owners. You can do this via an issue, email, or any other communication method.
 
-All contributions should be in English. This is to ensure that all members of the community can understand and contribute to the project. Translations can be made in addition to the English version. It is recommended to use the [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) standard for language codes.
+## Code of Conduct
+
+Please adhere to our [Code of Conduct](./CODE_OF_CONDUCT.md) in all your interactions with the project.
+
+## Internationalization (I18N)
+
+All contributions should be in English to ensure that all members of the community can understand and contribute to the project. Translations can be provided in addition to the English version. It is recommended to use the [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) standard for language codes.
 
 ## Documentation
 
-It is mandatory to document all contributions. This includes code, issues, and pull requests. The documentation should be as clear and concise as possible. It should be written in Markdown format. The documentation should be in the `README.md` file at the root of the project. Further documentation can be added in the `docs` folder.
+Documentation is mandatory for all contributions, including code, issues, and pull requests. The documentation should be:
+
+- Clear and concise
+- Written in Markdown format
+- Included in the `README.md` file at the root of the project
+- Additional documentation can be added to the `docs` folder
 
 ## Deployment
 
-Every solution should have a docker deployment option (with compose.yml and DOCKERFILE if necessary). The deployment should be as simple as possible and should be documented in the README.md file.
+Every solution should include a Docker deployment option, with a `compose.yml` and `Dockerfile` if necessary. The deployment process should be:
+
+- As simple as possible
+- Documented in the `README.md` file
 
 ## Archiving
 
-Each project within the DeVinci Fablab organization should be archived when it is no longer maintained. Would it be because the project has been aborted or because it has been completed, the project should be archived.
+Each project within the DeVinci Fablab organization should be archived when it is no longer maintained. This includes projects that have been completed or abandoned.
 
 ## Licensing
 
-All public projects within the DeVinci Fablab organization are [MIT licensed](./LICENSE).
+All public projects within the DeVinci Fablab organization are licensed under the [MIT License](../LICENSE).
+
+---
+
+By following these guidelines, you help ensure that the project remains well-organized, accessible, and collaborative. Thank you for your contributions!
