@@ -17,6 +17,11 @@ Extra short description of the PR
 - If you've only addressed minor fixes, or nothing specific, use something like:
 - E.g. "Minor Bug fixes"
 
+## BREAKING CHANGES 💥
+
+- List components that have changed in a way that differ from previous behaviors and might break projects depending on this one.
+- List removed, replaced or deprecated features that might break projects depending on this one.
+
 ## Related Tickets & Documents 📑
 
 Add here the related tickets and documents
