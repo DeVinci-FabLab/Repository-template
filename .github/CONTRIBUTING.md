@@ -39,6 +39,24 @@ All contributions should include tests to ensure the stability and reliability o
 - Ensure that all tests pass before submitting a pull request.
 - Include instructions on how to run the tests in the README.md file.
 
+## Commit Messages
+
+All commit messages should follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) format. This format ensures that the commit messages are easy to read and follow a consistent structure.
+
+The use of emojis in commit messages is encouraged to make the messages more engaging and easier to understand.
+
+## Git strategy
+
+All contributions should follow the [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) branching model. The main branches are:
+
+- `main`: The main branch for the project. This branch should always be stable and deployable.
+- `develop`: The development branch for the project. All feature branches should be merged into this branch.
+- `feature/*`: Feature branches for new functionality. These branches should be merged into the `develop` branch.
+- `hotfix/*`: Hotfix branches for critical bug fixes. These branches should be merged into the `main` and `develop` branches.
+- `release/*`: Release branches for preparing a new release. These branches should be merged into the `main` and `develop` branches.
+- `support/*`: Support branches for long-term support. These branches should be merged into the `main` branch.
+- `docs/*`: Documentation branches for updating the documentation. These branches should be merged into the `main` branch.
+
 ## Archiving
 
 Each project within the DeVinci Fablab organization should be archived when it is no longer maintained. This includes projects that have been completed or abandoned.
